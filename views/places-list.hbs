@@ -1,0 +1,11 @@
+<h1>List of places</h1>
+
+<ul>
+  {{#each allPlaces}}
+    <a href="/places-list{{_id}}">
+    </a>
+
+    <li><h4>{{name}}</h4>
+      <p>{{type}}</p></li>
+  {{/each}}
+</ul>
